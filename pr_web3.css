@@ -1,4 +1,4 @@
-body{background:none repeat scroll 0% 0% rgb(245, 245, 245);color:#666;font-family:Lucida Grande,Verdana,Tahoma,Arial,Sans-Serif,Lucida Sans;font-size:13px;background-image:url('images/background.png'), -moz-linear-gradient(center bottom , #FFF 0%, #EBEBEB 100%);background-repeat:repeat;background-attachment:fixed;}
+body{background:none repeat scroll 0% 0% rgb(245, 245, 245);color:#666;font-family:Lucida Grande,Verdana,Tahoma,Arial,Sans-Serif,Lucida Sans;font-size:13px;background-image:url('https://uzmuz.tv/theme/web_-_flyuk/images/background.png'), -moz-linear-gradient(center bottom , #FFF 0%, #EBEBEB 100%);background-repeat:repeat;background-attachment:fixed;}
 form{font-size:small;margin:0;padding:0;}
 h1, h2, h3, h4, h5, h6{font-size:13px;margin:0;}
 p{margin:0px;padding:0px;}
@@ -102,8 +102,8 @@ container:after{height:0px;content:" ";display:block;clear:both;visibility:hidde
 .navbar-inner:after{clear:both;}
 .navbar-inner:before, .navbar-inner:after{display:table;line-height:0;content:"";}
 .aa{position:relative;background:url("../images/Derd33/blueline_bg.png") no-repeat scroll 94% center rgb(76, 101, 137);box-shadow:1px 1px 2px 0px rgba(0, 0, 0, 0.26) inset, 0px 1px 0px 0px rgb(225, 225, 225);height:40px;border-bottom:1px solid rgb(255, 255, 255);color:rgb(255, 255, 255);padding:9px;}
-.side1, .side3{width:25%;float:left;}
-.side2{width:75%;float:left;}
+.side1, .side3{width:24%;float:left;}
+.side2{width:76%;float:left;}
 .side1, .side3{min-height:1px;position:relative;}
 .side2{padding-left:-5px;padding-right:-5px;min-height:1px;position:relative;}
 .row:after{clear:both;}
@@ -217,11 +217,13 @@ height:90px!important
 }
 .column1 {
   float: left;
-  width: 50%;
-  padding: 2px;
+  width: 49.5%;
+  padding: 1px;
 }
 	.column1 img {
     max-height: 60px;
+	  padding: 2px;
+
 }
 .row1.pasar img {
     width: 100%;
@@ -251,7 +253,13 @@ height:90px!important
   width: 33%;
   padding: 2px;
 }
-
+.column3 {
+    float: left;
+    width: 50%;
+    /* padding: 1px; */
+    /* margin: 4px; */
+    /* margin-bottom: 9px; */
+}
 /* Clear floats after the columns */
 .rowfooter:after {
   content: "";
